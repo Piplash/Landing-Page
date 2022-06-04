@@ -1,0 +1,208 @@
+    body{
+        font-family: 'Poppins';
+        text-transform: uppercase;
+    }
+
+    li{
+        overflow: auto;
+        white-space: nowrap;
+        padding-left: 40px;
+    }
+
+    /*imagenes cubren el área*/
+    img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 100%;
+    }
+
+    /*En los párrafos el texto no se transforma*/
+    p{
+        text-transform:none;
+    }
+
+    /*NAV BAR*/
+
+
+    .personalizado-nav{
+        font-size: 17px;
+        font-weight: 400;
+        padding-right: 100px;
+        height: 151px;
+        color: #484848;
+    }
+
+    .personalizado-is{
+        padding-left: 100px;
+    }
+
+    .iconos-sociales{
+        color: #FB6834;
+        padding-right: 40px;
+    }
+
+        
+    /* GRIDS */
+
+    .grid-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid-item-2{
+        margin: auto;
+    }
+
+    .column{
+        flex: 25%;
+        padding: 20px;
+    }
+
+    /*CONTENEDOR DE GRIDS*/
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    /* COLUMNAS SE APILAN EN CASO DE QUE LA PANTALLA SEA MÁS PEQUEÑA QUE X CANTIDAD (600 px) */
+    @media screen and (max-width: 600px) {
+        .row {
+        flex-direction: column;
+        }
+    }
+
+    /*CONTENIDO QUE VA SOBRE LAS IMÁGENES*/
+    .contenido-imagen{
+        position: absolute;
+        font-size:2vw;
+        color: #FB6834;
+        overflow: hidden;
+    }
+
+    .contenido-imagen-2{
+        position: absolute;
+        font-size:2vw;
+        color: #484848;
+        overflow: hidden;
+    }
+
+    /*NEGRITAS EN DISTINTAS LÍNEAS DE TEXTO*/
+
+    .linea-1{
+        font-weight: 300;
+    }
+
+    .linea-2{
+        font-weight: 700;
+    }
+
+    /*BOTONES*/
+
+    .btn-imagen{
+        background-color: #484848;
+        color:white;
+        text-transform: uppercase;
+        font-size: 1vw;
+        border-radius: 0;
+    }
+
+    .btn-imagen:hover{
+        background-color: #747474;
+        color: white;
+    }
+
+    .btn-suscribete{
+        background-color:white;
+        color: #FB6834;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 1vw;
+        text-transform: uppercase;
+        border-radius: 0px;
+        width: 15%;
+    }
+
+    .btn-enviar-formulario{
+        background-color:#484848;
+        color:white;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 1vw;
+        text-transform: uppercase;
+        border-radius: 0px;
+        width: 30%;
+    }
+
+    .lista-btn:hover{
+        border: none;
+    }
+
+    .form-group-btn{
+        padding-top:20px;
+        text-align:right;
+        padding-bottom: 20px;
+    }
+
+    /*TABLAS DE DROPDOWNS*/
+
+    .table{
+        border-color: #FB6834;
+    }
+
+    /* SUSCRIPCIÓN CORREO*/
+
+    .fila-4{
+        background-color: #FB6834;
+        color:white;
+        padding-left:20px;
+        padding: 30px;
+    }
+
+    .correo-electronico{
+        border: none;
+        background-color: #FB6834;
+        color: white;
+        border-bottom: 1px solid white;
+        width: 60%;
+    }
+    
+    .formulario{
+        width: 60%;
+        margin: auto;
+        padding-top: 50px;
+        font-family: 'Poppins';
+    }
+
+    .form-group{
+        padding-top:10px;
+    }
+
+    /*FOOTER*/
+
+    .footer{
+        background-color: #484848;
+        
+    }
+
+    .footer-img{
+        max-width: 60%;
+    }
+
+    .table-footer{
+        border: 0px;
+        color: white;
+    }
+
+    .personalizado-is-footer{
+        text-align: right;
+        font-size: 2vw;
+        padding-right: 50px;
+        padding-bottom: 10px;
+    }
+
+    .iconos-sociales-footer{
+        color: white;
+        padding-right: 40px;
+    }
